@@ -1,0 +1,5 @@
+{
+  "watch": ["src/**/*.ts"],
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "/usr/local/bin/node ./node_modules/.bin/ts-node-dev  ./index.ts"
+}
