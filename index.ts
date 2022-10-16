@@ -1,10 +1,9 @@
 import {SimplePeerServer} from "./lib/SimplePeerServer";
 
-const {readFileSync} = require("fs");
-const {createServer} = require("http");
+let hostname = "localhost";
+let port = 8003;
 
-
-console.log("running...")
+console.log(`Running on ${hostname}:${port}`);
 
 const http = require('http');
 const server = http.createServer();
